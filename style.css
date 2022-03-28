@@ -97,3 +97,71 @@
  .education__list-2 {
      margin-left: 30px;
  }
+
+ @media (max-width: 1199px) {
+   .container {
+       display: flex;
+       max-width: 960px;
+    }  
+
+   header {
+       position: relative;
+   }
+
+   .right-column, .left-column {
+       margin-left: 15px;
+   }
+ }
+
+  @media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }  
+    .header__photo {
+        border: none;
+    }
+
+  }
+ @media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    
+    h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    h2 {
+        font-size: 23px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    p, a, ul {
+        font-size: 15px;
+    }
+ }
+
+ @media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    .left-column {
+        margin: 0 auto;
+    }
+
+    header {
+        border: none;
+    }
+   
+  
+    .right-column {
+        padding: 15px;
+    } 
+   
+    .about-me__title {
+        margin-top: 30px;
+    }
+ }
